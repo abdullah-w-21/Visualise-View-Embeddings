@@ -1,5 +1,3 @@
-### GitHub Project Description
-
 #### Word Embeddings Visualization Using Gensim and t-SNE
 
 This project demonstrates how to create and visualize word embeddings using Gensim's `Word2Vec` model and dimensionality reduction with t-SNE. The following Python script trains a Word2Vec model on a set of sample sentences, reduces the dimensionality of the embeddings to 2D, and visualizes them using Matplotlib. Additionally, it prints the raw embeddings for each word.
@@ -25,3 +23,4 @@ This project demonstrates how to create and visualize word embeddings using Gens
 5. **Raw Embeddings**:
    - The raw embeddings for each word are printed to the console. This shows the high-dimensional vector representation of each word.
 
+**NOTE: We can play around with matplotlib to plot 3d visualisation and remove the tsne dimensionality reduction to see embeddings more emmersively.**
